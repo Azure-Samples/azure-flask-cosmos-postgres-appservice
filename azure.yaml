@@ -1,8 +1,9 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
 
-name: azure-flask-cosmos-postgres-aca
+
+name: azure-flask-cosmos-postgres-appservice
 metadata:
-    template: azure-flask-cosmos-postgres-aca
+    template: azure-flask-cosmos-postgres-appservice@0.0.1
 infra:
     provider: "bicep"
 services:
